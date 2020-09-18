@@ -22,26 +22,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="names" value="1" />
-          <entry key="py" value="4" />
+          <entry key="py" value="6" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="15" />
-          <entry key="txt" value="54" />
+          <entry key="py" value="28" />
+          <entry key="txt" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="54" />
-          <entry key="Python" value="15" />
+          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
     </session>
@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2088">
-              <caret line="179" column="68" lean-forward="true" selection-start-line="179" selection-start-column="68" selection-end-line="179" selection-end-column="68" />
+            <state relative-caret-position="212">
+              <caret line="65" column="24" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -60,8 +60,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+            <state relative-caret-position="359">
+              <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/convert_weight.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/freeze_graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="18" column="54" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -69,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="159" column="48" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
+            <state relative-caret-position="316">
+              <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -81,6 +95,7 @@
     <findStrings>
       <find>$PROJECT_DIR$/../slider_image/</find>
       <find>E:\dm\tmp\SliderImage-PascalVOC_Margin\JPEGImages\</find>
+      <find>warmup_periods</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,6 +108,7 @@
         <option value="$PROJECT_DIR$/data/dataset/slider_test.txt" />
         <option value="$PROJECT_DIR$/data/dataset/slider_train.txt" />
         <option value="$PROJECT_DIR$/core/dataset.py" />
+        <option value="$PROJECT_DIR$/freeze_graph.py" />
         <option value="$PROJECT_DIR$/core/config.py" />
       </list>
     </option>
@@ -113,6 +129,11 @@
             <path>
               <item name="tensorflow-yolov3" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow-yolov3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow-yolov3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow-yolov3" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600403070009</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add:train_batch 8">
+      <created>1600403167431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600403167431</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add:pd">
+      <created>1600408891551</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600408891552</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -223,7 +258,9 @@
     <MESSAGE value="add:train_batch 12" />
     <MESSAGE value="add:init weight" />
     <MESSAGE value="add:train_batch 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:train_batch 10" />
+    <MESSAGE value="add:train_batch 8" />
+    <MESSAGE value="add:pd" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:pd" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/core/yolov3.py">
@@ -260,24 +297,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/dataset.py">
+    <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="159" column="48" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
+        <state relative-caret-position="212">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
+    <entry file="file://$PROJECT_DIR$/core/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="179" column="68" lean-forward="true" selection-start-line="179" selection-start-column="68" selection-end-line="179" selection-end-column="68" />
+        <state relative-caret-position="316">
+          <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_weight.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freeze_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="359">
+          <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
         </state>
       </provider>
     </entry>
