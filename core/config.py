@@ -30,8 +30,8 @@ __C.YOLO.STRIDES                = [8, 16, 32]
 __C.YOLO.ANCHOR_PER_SCALE       = 3
 __C.YOLO.IOU_LOSS_THRESH        = 0.5
 __C.YOLO.UPSAMPLE_METHOD        = "resize"
-__C.YOLO.ORIGINAL_WEIGHT        = "./checkpoint/yolov3_coco.ckpt"
-__C.YOLO.DEMO_WEIGHT            = "./checkpoint/yolov3_coco_demo.ckpt"
+__C.YOLO.ORIGINAL_WEIGHT        = "./checkpoint/yolov3_slider.ckpt"
+__C.YOLO.DEMO_WEIGHT            = "./checkpoint/yolov3_slider.ckpt"
 
 # Train options
 __C.TRAIN                       = edict()
