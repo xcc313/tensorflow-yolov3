@@ -43,9 +43,9 @@ __C.TRAIN.DATA_AUG              = True
 __C.TRAIN.LEARN_RATE_INIT       = 1e-4
 __C.TRAIN.LEARN_RATE_END        = 1e-6
 __C.TRAIN.WARMUP_EPOCHS         = 2
-__C.TRAIN.FISRT_STAGE_EPOCHS    = 20
-__C.TRAIN.SECOND_STAGE_EPOCHS   = 30
-__C.TRAIN.INITIAL_WEIGHT        = "./checkpoint/yolov3_test_loss=nan.ckpt-11"
+__C.TRAIN.FISRT_STAGE_EPOCHS    = 2
+__C.TRAIN.SECOND_STAGE_EPOCHS   = 3
+__C.TRAIN.INITIAL_WEIGHT        = "./checkpoint/yolov3_test_loss=0.4045.ckpt-20"
 
 
 
@@ -59,7 +59,7 @@ __C.TEST.DATA_AUG               = False
 __C.TEST.WRITE_IMAGE            = True
 __C.TEST.WRITE_IMAGE_PATH       = "./data/detection/"
 __C.TEST.WRITE_IMAGE_SHOW_LABEL = False
-__C.TEST.WEIGHT_FILE            = "./checkpoint/yolov3_test_loss=nan.ckpt-11"
+__C.TEST.WEIGHT_FILE            = "./checkpoint/yolov3_test_loss=0.4045.ckpt-20"
 __C.TEST.SHOW_LABEL             = False
 __C.TEST.SCORE_THRESHOLD        = 0.3
 __C.TEST.IOU_THRESHOLD          = 0.45
