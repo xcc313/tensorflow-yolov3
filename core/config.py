@@ -37,7 +37,7 @@ __C.YOLO.DEMO_WEIGHT            = "./checkpoint/yolov3_coco_demo.ckpt"
 __C.TRAIN                       = edict()
 
 __C.TRAIN.ANNOT_PATH            = "./data/dataset/slider_train.txt"
-__C.TRAIN.BATCH_SIZE            = 10
+__C.TRAIN.BATCH_SIZE            = 8
 __C.TRAIN.INPUT_SIZE            = [320, 352, 384, 416, 448, 480, 512, 544, 576, 608]
 __C.TRAIN.DATA_AUG              = True
 __C.TRAIN.LEARN_RATE_INIT       = 1e-4
