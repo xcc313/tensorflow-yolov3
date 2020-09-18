@@ -154,7 +154,7 @@ class Dataset(object):
     def parse_annotation(self, annotation):
 
         line = annotation.split()
-        image_path = line[0]
+        image_path = '/content/slider_image/'+line[0]
         if not os.path.exists(image_path):
             raise KeyError("%s does not exist ... " %image_path)
         image = np.array(cv2.imread(image_path))
